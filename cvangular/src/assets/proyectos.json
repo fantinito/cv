@@ -1,0 +1,8 @@
+{
+    "proyectos":[
+        {"nombreProyecto":"SGE - 713",
+        "materia":"Proyecto practica profesionalizante - 7mo ETP",
+        "ano":"2023",
+        "tecnologias":"HTML, CSS, JAVASCRIPT, ANGULAR, TYPESCRIPT, PHP, MYSQL"}
+    ]
+}

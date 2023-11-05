@@ -1,0 +1,12 @@
+<section class="fondoParrafos tipoLetra borde tipografia container-fluid">
+    <h3>
+        <u>Estudios académicos</u>
+    </h3>
+    <div *ngFor="let item of estudiosAcademicos">
+
+        <h4>{{item.titulo}}</h4>
+        <p>Colegio:<span>{{item.colegio}}</span></p>
+        <p>año:<span>{{item.ano}}</span></p>
+    </div>
+</section>
+

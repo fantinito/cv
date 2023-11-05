@@ -1,0 +1,13 @@
+<section class="fondoParrafos tipoLetra borde tipografia container-fluid">
+    <h3>
+        <u>PROYECTOS</u>
+    </h3>
+    <h4> Proyecto Practicas Profesionalizantes</h4>
+    <div *ngFor="let item of proyectos">
+        <p>{{item.nombreProyecto}} </p>
+        <p> {{item.materia}}</p>
+        <p> Año:<span>{{item.ano}}</span></p>
+        <p>Tecnologías: <span> {{item.tecnologias}}
+            </span></p>
+    </div>
+</section>

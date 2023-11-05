@@ -1,0 +1,19 @@
+<section class="fondoParrafos tipoLetra tipografia borde container-fluid">
+    <h3 class="letraCentrada">
+        <u>Experiencia laboral</u>
+    </h3>
+    <div *ngFor="let item of experienciaLaboral">
+        <h4>{{item.rol}}</h4>
+        <p>Empresa:<span>{{item.empresa}}</span></p>
+        <p>Número Telefónico:<span>{{item.numero}}</span></p>
+        <p>Lugar:<span>{{item.lugar}}</span></p>
+        <p>{{item.fecha}}</p>
+    </div>
+    <div *ngFor="let item of experienciaLaboral">
+        <h4>{{item.rol2}}</h4>
+        <p>Empresa:<span>{{item.empresa2}}</span></p>
+        <p>Número Telefónico:<span>{{item.numero2}}</span></p>
+        <p>Lugar:<span>{{item.lugar2}}</span></p>
+        <p>{{item.fecha2}}</p>
+    </div>
+</section>
